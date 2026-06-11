@@ -1,6 +1,6 @@
 # AI Story Shorts Generator
 
-An automated tool to generate viral YouTube Shorts videos using Gemini API, Pollinations AI, Edge-TTS, Faster-Whisper, and MoviePy.
+An automated tool to generate viral YouTube Shorts videos using Gemini API, NVIDIA NIM API (Flux.2), Piper TTS, Faster-Whisper, and MoviePy.
 
 ## Prerequisites
 
@@ -39,16 +39,18 @@ An automated tool to generate viral YouTube Shorts videos using Gemini API, Poll
 
 ## Running the Application
 
-1. Set your Gemini API key as an environment variable before running the script.
+1. Set your Gemini API and NVIDIA API keys as environment variables before running the script. You can get an NVIDIA key for free at build.nvidia.com.
    
    **On Windows (Command Prompt):**
    ```cmd
    set GEMINI_API_KEY=your_gemini_api_key_here
+   set NVIDIA_API_KEY=your_nvidia_api_key_here
    ```
    
    **On Windows (PowerShell):**
    ```powershell
    $env:GEMINI_API_KEY="your_gemini_api_key_here"
+   $env:NVIDIA_API_KEY="your_nvidia_api_key_here"
    ```
 
 2. Run the main orchestration script:
