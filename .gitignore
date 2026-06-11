@@ -1,0 +1,9 @@
+.env
+__pycache__/
+output/
+models/
+test_*
+final_videoTEMP*
+story.txt
+metadata.json
+*.pyc

@@ -1,0 +1,9 @@
+google-generativeai
+moviepy==1.0.3
+opencv-python
+edge-tts
+faster-whisper
+ffmpeg-python
+Pillow
+numpy
+requests
