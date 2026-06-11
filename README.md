@@ -40,7 +40,7 @@ An automated tool to generate viral YouTube Shorts videos using Gemini API, NVID
 ## Running the Application
 
 1. Set your Gemini API and NVIDIA API keys as environment variables before running the script. You can get an NVIDIA key for free at build.nvidia.com(Image Generation).
-personal best model is **flux.2-klein-4b**
+   personal best model is **flux.2-klein-4b**
    
    **On Windows (Command Prompt):**
    ```cmd
